@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm audit:*)",
+      "Mcp_playwright",
+      "Bash(curl:*)"
+    ],
+    "deny": []
+  }
+}

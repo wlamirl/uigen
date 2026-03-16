@@ -1,0 +1,559 @@
+[   40773ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   40903ms] Error: ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/lib/contexts/chat-context.tsx:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Dados/Projetos/uigen/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:775:59)
+    at DevBundlerService.getCompilationError (file:///Dados/Projetos/uigen/node_modules/next/dist/server/lib/dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file:///Dados/Projetos/uigen/node_modules/next/dist/server/dev/next-dev-server.js:721:42)
+    at DevServer.findPageComponents (file:///Dados/Projetos/uigen/node_modules/next/dist/server/dev/next-dev-server.js:691:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Dados/Projetos/uigen/node_modules/next/dist/server/base-server.js:1687:26)
+[   40904ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   41097ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[   41124ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   52515ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   62673ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+Import traces:
+  Client Component Browser:
+    ./src/lib/contexts/chat-context.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Client Component Browser]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/lib/contexts/chat-context.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Client Component SSR]
+    ./src/app/main-content.tsx [Server Component]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/client/index.js:39:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/client/portal/index.js:11:16
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/portal/index.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/client/route-announcer.js:25:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-announcer.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/client/router.js:41:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/client/script.js:32:58
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/client/with-router.js:13:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/with-router.js
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/app/errors/stitched-error.js:36:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/app/errors/stitched-error.js
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-error-boundary.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-error-boundary.js
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:25:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77591ms] [ERROR] ./node_modules/next/dist/pages/_error.js:13:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/amp-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/amp-context.shared-runtime.js
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js:37:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/app-router-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/head-manager-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/head-manager-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/head.js:27:58
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js:28:16
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/hooks-client-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/image-config-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/image-config-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/router-context.shared-runtime.js:12:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/router-context.shared-runtime.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/router/adapters.js:33:58
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/router/adapters.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/side-effect.js:11:16
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/shared/lib/side-effect.js
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/shared/lib/side-effect.js
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/react-dom/cjs/react-dom-client.development.js:21205:15
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/react-dom/cjs/react-dom-client.development.js
+    ./node_modules/react-dom/client.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/react-dom/cjs/react-dom.development.js:84:17
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/react-dom/cjs/react-dom.development.js
+    ./node_modules/react-dom/index.js
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/client/index.js:37:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/client/route-announcer.js:24:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/route-announcer.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/client/script.js:30:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/script.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/client/with-router.js:12:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/client/with-router.js
+    ./node_modules/next/dist/client/router.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:24:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/pages/_error.js:12:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/head.js:26:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+  SSR:
+    ./node_modules/next/dist/shared/lib/head.js
+    ./node_modules/next/dist/pages/_error.js
+    ./node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/shared/lib/router/adapters.js:32:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import trace:
+  Browser:
+    ./node_modules/next/dist/shared/lib/router/adapters.js
+    ./node_modules/next/dist/client/index.js
+    ./node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/pages/_app.js:13:57
+Module not found: Can't resolve 'react'
+Import map: aliased to module "'react'" inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   77592ms] [ERROR] ./node_modules/next/dist/pages/_app.js:12:21
+Module not found: Can't resolve 'react/jsx-runtime'
+Import map: aliased to module 'react' with subpath '/jsx-runtime' inside of [project]/
+
+Import traces:
+  Browser:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+  SSR:
+    ./node_modules/next/dist/pages/_app.js
+    ./node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_5b402162._.js:1747
+[   78096ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:3918
+[   78542ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__45f039c3._.js:34
+[   78722ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2836
+[   79303ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   79729ms] TypeError: Cannot read properties of undefined (reading 'trim')
+    at MessageInput (http://localhost:3000/_next/static/chunks/src_6952b6d9._.js:1354:51)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:13072:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:4091:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:5523:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:6111:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:886:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8298:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8190:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8173:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:7932:56)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8882:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_5150ccfd._.js:2601:64)
+[  158575ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:6270
