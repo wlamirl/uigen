@@ -84,3 +84,16 @@ Required in `.env`:
 ### UI Components
 
 Radix UI primitives wrapped as shadcn/ui components live in `src/components/ui/`. Tailwind CSS v4 with CSS variables. The main layout is a resizable split-pane (`react-resizable-panels`): chat left, editor + preview right.
+
+### Mock Provider
+
+When `ANTHROPIC_API_KEY` is absent or empty, `getLanguageModel()` (`src/lib/provider.ts`) returns a `MockLanguageModel` that streams static pre-built components (counter, form, or card) without calling the API. The real model used when a key is present is `claude-haiku-4-5`.
+
+### Generation Constraints
+
+The system prompt (`src/lib/prompts/generation.tsx`) enforces rules that Claude must follow when generating components:
+- Every project must have a root `/App.jsx` as the entry point
+- Non-library imports must use the `@/` alias (e.g., `import Foo from '@/components/Foo'`)
+- Style with Tailwind CSS only — no hardcoded styles or HTML files
+
+The streaming pipeline uses [Vercel AI SDK](https://sdk.vercel.ai) (`ai` package) for `streamText` and tool orchestration on top of `@ai-sdk/anthropic`.
