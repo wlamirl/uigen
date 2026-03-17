@@ -3,7 +3,7 @@
     "allow": [
       "Bash(npm run:*)",
       "Bash(npm audit:*)",
-      "Mcp_playwright",
+      "mcp__playwright",
       "Bash(curl:*)"
     ],
     "deny": []
