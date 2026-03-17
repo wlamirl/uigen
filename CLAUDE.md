@@ -2,6 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Environment
+
+The project is already set up with all dependencies installed.
+The server is already running at localhost:3000. Logs from it 
+are being written to logs.txt. If needed, you can query the 
+db with the 'sqlite3' cli. If needed, use the mcp_playwright 
+set of tools to lauch a browser and interact with the app.
+
 ## Commands
 
 ```bash
